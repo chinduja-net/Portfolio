@@ -19,7 +19,7 @@ function Projects() {
                     {projects.map((project) => (
                        <a href={project.link}
               className="sm:w-1/2 w-100 p-4" key = {project.title}>
-              <div className="flex relative border shadow-lg w-96 h-76">
+              <div className="flex relative border shadow-lg w-54 h-54 ">
                  <img
                   alt="gallery"
                   className="absolute inset-0 w-full h-full object-contain object-center "
@@ -32,7 +32,7 @@ function Projects() {
                   <h1 className="title-font text-lg font-medium text-white mb-3">
                     {project.title}
                   </h1>
-                  <p className="text-black font-Fira">{project.description}</p>
+                  <p className="text-black font-Fira font-sm">{project.description}</p>
                 </div>
               </div>
             </a>
