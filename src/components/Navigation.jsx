@@ -9,7 +9,7 @@ export default function Navigation() {
             CHINDUJA
           </a>
         </div>
-        <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700	flex flex-wrap items-center text-2xl justify-center">
+        <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700	flex flex-wrap items-center text-xl justify-center">
            <a href="#description" className="mr-5">
             #ABOUT
           </a>
@@ -21,7 +21,7 @@ export default function Navigation() {
         </nav>
         <a
           href="#contact"
-          className="inline-flex items-center text-2xl mt-4  border-0 py-1 px-3 focus:outline-none focus:bg-purple-400 border-1 rounded-full md:mt-0">
+          className="inline-flex items-center text-xl mt-4  border-0 py-1 px-3 focus:outline-none focus:bg-purple-400 border-1 rounded-full md:mt-0">
           #SAY HELLO
         </a>
       </div>
