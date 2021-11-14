@@ -2,7 +2,7 @@ import React from "react";
 import Navigation from "./Navigation";
 import gradient from "./Assets/Image/landing.jpg";
 import Social from "./Social";
-import resume from "./Assets/ChindujaResume.pdf"
+import resume from "./Assets/ChindujaVResume.pdf"
 
 export default function About() {
   return (

@@ -12,7 +12,7 @@ export default function Skills() {
             Skills &amp; Technologies
           </h1>
           <p className="text-base leading-relaxed text-white font-Fira xl:w-2/4 lg:w-3/4 mx-auto">
-          Proficient on the base Front End development technologies including HTML5, CSS3, JavaScript, Node.js, Express and React js.
+          Knowledgeable in the base Front End development technologies including HTML5, CSS3, JavaScript, React js and  Node.js, Express, Database- MongoDb, SQlite Studio
           </p>
         </div>
         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">

@@ -1,5 +1,5 @@
 import React from "react";
-import profileImage from "./Assets/Image/picture.png";
+import profileImage from "./Assets/Image/IMG_4450.jpg";
 
 export default function Description() {
   return (
@@ -12,20 +12,20 @@ export default function Description() {
       </h3>
 
       <div className="container mx-auto flex justify-evenly ">
-        <div className="pt-4 pb-0 justify-center">
+        <div className="w-1/2 pt-4 pb-0 justify-center">
           <p className="leading-relaxed font-Fira text-white">
             My Name is Chinduja. <br />
             I'm a frontend Developer student studying in Jensen Yrkeshögskola. I
             live with my husband and daughter in Göteborg, Sweden. <br />
             I have always been curious about technology and love to learn about
             tech. <br />
-            When I'm not coding I love to be in nature either running or biking and spending time with my friends and family <br />I would
+            When I'm not coding I love to be in the nature either running or biking and spending time with my friends and family <br />I would
             love to meet over coffee and discuss work. Feel free to contact me!
           </p>
         </div>
-        <div className="w-1/4 py-20 pt-4 pb-0 justify-center">
+        <div className="w-1/2 py-20 pt-4 pb-0 flex justify-center mb-8">
           <img
-            className="object-contain h-3/4 rounded-full shadow-lg "
+            className="flex object-contain shadow-lg items-center w-3/4 justify-center opacity-60 rounded-lg"
             src={profileImage}
             alt="profile"
           />
