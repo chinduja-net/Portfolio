@@ -5,7 +5,7 @@ export default function Description() {
   return (
     <section
       id="description"
-      className="m-10 px-10 py-60 pt-5 pb-0 bg-purple-700 rounded-lg shadow-lg">
+      className="m-10 px-10 py-60 pt-5 pb-10 bg-purple-700 rounded-lg shadow-lg">
 
       <h3 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white font-fira text-center ">
         Get To Know Me

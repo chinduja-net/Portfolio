@@ -14,7 +14,7 @@ function Projects() {
           I like to code things from scratch, and enjoy bringing ideas to life in the browser. I value simple content structure, clean design patterns, and thoughtful interactions. I enjoy designing website. I use design tools like Figma. I like to build fully responsive applications with custom designed layout.
           </p>
         </div>
-        <div className="flex flex-wrap -m-4">
+        <div className="flex flex-wrap justify-center items-center -m-4 px-4 py-2 flex-grow">
           
                     {projects.map((project) => (
                        <a href={project.link}
@@ -22,7 +22,7 @@ function Projects() {
               <div className="flex relative border shadow-lg w-54 h-54 ">
                  <img
                   alt="gallery"
-                  className="absolute inset-0 w-full h-full object-contain object-center "
+                  className="absolute inset-0 w-full h-full object-contain object-center"
                   src={project.image}
                 /> 
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-purple-500 bg-purple-400 opacity-0 shadow-xl hover:opacity-100">
