@@ -5,15 +5,15 @@ export default function Description() {
   return (
     <section
       id="description"
-      className="m-10 px-10 py-60 pt-5 pb-0 bg-purple-300 rounded-lg shadow-lg">
+      className="m-10 px-10 py-60 pt-5 pb-0 bg-purple-700 rounded-lg shadow-lg">
 
-      <h3 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-purple-900 font-fira text-center ">
+      <h3 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white font-fira text-center ">
         Get To Know Me
       </h3>
 
       <div className="container mx-auto flex justify-evenly ">
         <div className="pt-4 pb-0 justify-center">
-          <p className="leading-relaxed font-Fira font-black-200">
+          <p className="leading-relaxed font-Fira text-white">
             My Name is Chinduja. <br />
             I'm a frontend Developer student studying in Jensen Yrkeshögskola. I
             live with my husband and daughter in Göteborg, Sweden. <br />

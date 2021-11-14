@@ -4,13 +4,13 @@ import {projects} from './Assets/Data/data.js'
 function Projects() {
     return (
 
-        <section id="projects" className="text-gray-400 bg-purple-300 body-font">
+        <section id="projects" className="text-white bg-purple-700 body-font">
       <div className="container py-10 mx-auto text-center lg:px-40">
         <div className="flex flex-col w-full mb-20">
-                   <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-purple-900 font-fira">
+                   <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 font-fira">
             What I do 
           </h1>
-          <p className="lg:w-2/3 mx-auto leading-relaxed text-base leading-relaxed font-Fira text-black">
+          <p className="lg:w-2/3 mx-auto leading-relaxed text-base leading-relaxed font-Fira text-white">
           I like to code things from scratch, and enjoy bringing ideas to life in the browser. I value simple content structure, clean design patterns, and thoughtful interactions. I enjoy designing website. I use design tools like Figma. I like to build fully responsive applications with custom designed layout.
           </p>
         </div>

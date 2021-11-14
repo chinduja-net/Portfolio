@@ -10,8 +10,7 @@ import Description from "./components/Description";
 
 function App() {
   return (
-    <main className="m-0 p-0 box-border bg-gray-200">
-      
+    <main className="bg-purple-300">
       <About />
       <Description />
       <Projects />

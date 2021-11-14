@@ -41,17 +41,17 @@ const isValidEmail = email => {
 
 
   return (
-    <section id="contact" className="relative">
+    <section id="contact" className="bg-purple-700">
       <div className="container py-10 mx-auto flex sm:flex-nowrap">
         <form
         
           name="contact"
           className="flex mx-auto flex-col md:ml-auto md:py-8 mt-8 md:mt-0"
         >
-          <h2 className="text-purple-900 flex justify-center sm:text-4xl text-3xl m-4 font-medium title-font">
+          <h2 className="text-white flex justify-center sm:text-4xl text-3xl m-4 font-medium title-font">
             GET IN TOUCH !
           </h2>
-          <p className="leading-relaxed mb-5 text-lg font-Fira font-black-200">
+          <p className="leading-relaxed mb-5 text-lg font-Fira text-white">
             Whether to just say hello or talk about work feel free to reach out
             to me
           </p>
@@ -60,7 +60,7 @@ const isValidEmail = email => {
             <div className="relative mb-4">
               <label
                 htmlFor="name"
-                className="leading-7 text-lg text-purple-900"
+                className="leading-7 text-lg text-white"
               >
                 NAME
               </label>
@@ -76,7 +76,7 @@ const isValidEmail = email => {
             <div className="relative mb-4">
               <label
                 htmlFor="email"
-                className="leading-7 text-lg text-purple-900"
+                className="leading-7 text-lg text-white"
               >
                 EMAIL
               </label>
@@ -92,7 +92,7 @@ const isValidEmail = email => {
             <div className="relative mb-4">
               <label
                 htmlFor="message"
-                className="leading-7 text-lg text-purple-900"
+                className="leading-7 text-lg text-white"
               >
                 MESSAGE
               </label>
@@ -108,7 +108,7 @@ const isValidEmail = email => {
           <button
             type="submit"
             onClick = {submit}
-            className="w-96 mx-auto text-black bg-purple-300 border-0 py-2 focus:outline-none hover:bg-purple-700 rounded text-lg transition ease-in-out duration-500"
+            className="w-96 mx-auto text-black bg-purple-300 border-0 py-2 focus:outline-none hover:bg-purple-500 rounded text-lg transition ease-in-out duration-500 hover:text-white"
           >
             SEND
           </button>
@@ -118,26 +118,25 @@ const isValidEmail = email => {
 
       {/* ---footer--- */}
 
-      <footer className="flex justify-center text-xl pb-24">
+      <footer className="flex justify-center text-white text-xl pb-24">
         <a
           href="https://github.com/chinduja-net"
           target="_blank"
-          className="ml-1 mr-1 hover:text-purple-900 transition ease-in-out duration-500"
+          className="ml-1 mr-1 hover:text-purple-500 transition ease-in-out duration-500"
         >
           GitHub
         </a>
         <a
           href="https://www.linkedin.com/in/chinduja-vijayaraj-64b166176"
           target="_blank"
-          className="ml-2 mr-2 hover:text-purple-900 transition ease-in-out duration-500"
+          className="ml-2 mr-2 hover:text-purple-500 transition ease-in-out duration-500"
         >
           LinkedIn
         </a>
         <a
           href="mailto:cindhujavijayaraj@gmail.com"
           target="_blank"
-          className="ml-1 mr-1 hover:text-purple-900 transition ease-in-out duration-500"
-        >
+          className="ml-1 mr-1 transform hover:text-purple-500 transition ease-in-out duration-500">
           Email
         </a>
       </footer>
