@@ -20,7 +20,7 @@ export default function About() {
         <h3 className="flex justify-center animate-pulse font-Fira text-3xl m-1"> Frontend Developer.</h3>
         <div className = "flex w-72 mx-auto">
         <a href= "#contact" className = "font-Fira text-xl flex justify-center content-center w-28 mx-auto bg-white text-purple-900 border-3 rounded transform hover:bg-purple-300 hover:scale-110">Hire Me </a>
-        <a href= {resume} target="_blank" download className = "font-Fira text-xl flex justify-center content-center bg-white text-purple-900 w-28 mx-auto border-3 rounded transform hover:bg-purple-300 hover:scale-110">My Cv </a>
+        <a href= {resume} target="_blank" className = "font-Fira text-xl flex justify-center content-center bg-white text-purple-900 w-28 mx-auto border-3 rounded transform hover:bg-purple-300 hover:scale-110">My Cv </a>
         </div>
 
         

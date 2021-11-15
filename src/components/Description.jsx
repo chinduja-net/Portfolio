@@ -27,7 +27,7 @@ export default function Description() {
           <img
             className="flex object-contain shadow-lg items-center w-3/4 justify-center opacity-60 rounded-lg"
             src={profileImage}
-            alt="profile"
+            alt="profileImage"
           />
         </div>
       </div>
