@@ -23,7 +23,7 @@ function Projects() {
                  <img
                   alt="gallery"
                   className="absolute inset-0 w-full h-full object-contain object-center"
-                  src={project.image} alt ="shoppingImage"
+                  src={project.image} 
                 /> 
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-purple-500 bg-purple-400 opacity-0 shadow-xl hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-purple-900 mb-1">

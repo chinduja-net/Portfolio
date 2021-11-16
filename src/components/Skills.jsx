@@ -18,11 +18,11 @@ export default function Skills() {
         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
           {skills.map((skill) => (
             <div key={skill} className="p-2 sm:w-1/2 w-full">
-              <div className="bg-purple-200 rounded flex p-4 h-full items-center hover:bg-purple-700 transition ease-in-out 500s">
-                <BadgeCheckIcon className="text-purple-900 w-6 h-6 flex-shrink-0 mr-4 hover:text-white" />
-                <span className="title-font font-bold font-Fira text-purple-900 hover:text-white">
+              <div className="group bg-purple-200 rounded flex p-4 h-full items-center hover:bg-purple-700 transition ease-in-out 500s">
+                <BadgeCheckIcon className="text-purple-900 w-6 h-6 flex-shrink-0 mr-4 group-hover:text-white" />
+                <p className="title-font font-bold font-Fira text-purple-900 group-hover:text-white">
                   {skill}
-                </span>
+                </p>
               </div>
             </div>
           ))}
