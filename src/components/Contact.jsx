@@ -116,31 +116,7 @@ const isValidEmail = email => {
         </form>
       </div> 
 
-      {/* ---footer--- */}
-
-      <footer className="flex justify-center text-white text-xl pb-24">
-        <a
-          href="https://github.com/chinduja-net"
-          target="_blank"
-          className="ml-1 mr-1 hover:text-purple-500 transition ease-in-out duration-500"
-        >
-          GitHub
-        </a>
-        <a
-          href="https://www.linkedin.com/in/chinduja-vijayaraj-64b166176"
-          target="_blank"
-          className="ml-2 mr-2 hover:text-purple-500 transition ease-in-out duration-500"
-        >
-          LinkedIn
-        </a>
-        <a
-          href="mailto:cindhujavijayaraj@gmail.com"
-          target="_blank"
-          className="ml-1 mr-1 transform hover:text-purple-500 transition ease-in-out duration-500">
-          Email
-        </a>
-      </footer>
-    </section>
+      </section>
   );
 }
 
