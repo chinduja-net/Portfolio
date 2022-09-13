@@ -15,8 +15,8 @@ export default function Description() {
         <div className="w-1/2 pt-4 pb-0 justify-center">
           <p className="leading-relaxed font-Fira text-white">
             My Name is Chinduja. <br />
-            I'm a frontend Developer student studying in Jensen Yrkeshögskola. I
-            live with my husband and daughter in Göteborg, Sweden. <br />
+            I'm a frontend Developer. 
+            I live with my husband and daughter in Göteborg, Sweden. <br />
             I have always been curious about technology and love to learn about
             tech. <br />
             When I'm not coding I love to be in the nature either running or biking and spending time with my friends and family <br />I would

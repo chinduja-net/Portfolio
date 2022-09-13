@@ -27,7 +27,7 @@ const BottomNav = () => {
 
        
       </section>
-      <footer className = "bg-purple-700 font-sm text-white font-Fira">&copy Copyright 2021 Chinduja Vijayaraj</footer>
+      <footer className = "bg-purple-700 font-sm text-white font-Fira">&copy;Copyright 2021 Chinduja Vijayaraj</footer>
       
    </>
   )
