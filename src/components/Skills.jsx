@@ -1,18 +1,31 @@
-import { BadgeCheckIcon} from "@heroicons/react/solid";
+import { BadgeCheckIcon } from "@heroicons/react/solid";
 import React from "react";
-const skills = ['Html & CSS ', 'JavaScript', 'React.Js', 'Node.Js', 'Express', 'Tailwind CSS','Agile Framework','Git, Figma']
+const skills = [
+  "Html & CSS ",
+  "JavaScript & Typescript",
+  "React.Js",
+  "Node.Js, Express & Rest API",
+  "SQL, Mongo Db & Knex.js",
+  "Tailwind CSS, Styled Components & Material UI",
+  "Agile Framework - Scrum , Trello & JIRA",
+  "Tools -Git, Figma",
+  "Testing - Cypress, Jest, Mocha & Chai",
+  "Docker",
+];
 
 export default function Skills() {
   return (
     <section id="skills">
       <div className="container w-90 py-10 mx-auto bg-purple-700 shadow-lg">
         <div className="text-center mb-20">
-         
           <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4 font-fira text-center">
             Skills &amp; Technologies
           </h1>
           <p className="text-base leading-relaxed text-white font-Fira xl:w-2/4 lg:w-3/4 mx-auto">
-          Knowledgeable in the base Front End development technologies including HTML5, CSS3, JavaScript, React js and  Node.js, Express, Database- MongoDb, SQlite Studio
+            Knowledgeable in the Front End development technologies including
+            HTML5, CSS3, JavaScript, TypeScript, React js and Node.js,
+            Express,Knex.js ,Database- MongoDb, SQlite Studio in the server
+            side.
           </p>
         </div>
         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
